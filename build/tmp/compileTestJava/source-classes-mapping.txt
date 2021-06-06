@@ -1,0 +1,2 @@
+com/generictest/TestClass.java
+ com.generictest.TestClass
