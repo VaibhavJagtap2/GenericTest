@@ -1,0 +1,2 @@
+com/generictest/MaxValue.java
+ com.generictest.MaxValue
