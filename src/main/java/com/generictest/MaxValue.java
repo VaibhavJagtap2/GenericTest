@@ -3,8 +3,11 @@ package com.generictest;
 public class MaxValue {
     public static void main(String[] args) {
         printMax(testMaximumInteger(200, 300, 500));
-        Double [] a = {1.1,1.2,1.3};
-        String [] b = {"Vaibhav", "Suraj", "Parag"};
+        printMax(testMaximumDouble(1.1, 1.2, 1.3));
+        printMax(testMaximumString("Vaibhav", "Suraj", "Parag" ));
+        Integer [] a = {100, 200, 400};
+        Double [] b = {1.1,1.2,1.3};
+        String [] c = {"Vaibhav", "Suraj", "Parag"};
     }
     public static <E extends Comparable<E>> E max(E[] list){
         E max = list[0];
@@ -34,7 +37,7 @@ public class MaxValue {
         }
         return max1;
     }
-    public String testMaximumString(String first, String second, String third) {
+    public static String testMaximumString(String first, String second, String third) {
         int max2 = first.length();
         String letter = first;
         if (second.length() > max2) {
@@ -51,10 +54,10 @@ public class MaxValue {
     private static void printMax(Integer max){
         System.out.println("Maximum number is : " + max);
     }
-    private static void printMax(Double max){
-        System.out.println("Maximum number is : " + max);
+    private static void printMax(Double max1){
+        System.out.println("Maximum number is : " + max1);
     }
-    private static void printMax(String max) {
-        System.out.println(" Maximum number is : " + max);
+    private static void printMax(String max2) {
+        System.out.println(" Maximum number is : " + max2);
     }
 }

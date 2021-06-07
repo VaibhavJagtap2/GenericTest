@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.generictest.TestClass" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-06-07T08:42:14" hostname="DESKTOP-4QDC4A3" time="0.011">
+<testsuite name="com.generictest.TestClass" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-07T10:28:02" hostname="DESKTOP-4QDC4A3" time="8.115">
   <properties/>
-  <testcase name="givenSecondFloatAsMaxNumber_ShouldReturnSecondFloatAsMaximum" classname="com.generictest.TestClass" time="0.002"/>
-  <testcase name="givenSecondLetterAsMaximum_ShouldReturnSecondLetterAsMaximum" classname="com.generictest.TestClass" time="0.005"/>
-  <testcase name="givenSecondNumberAsMaxNumber_ShouldReturn_SecondNumberAsMax" classname="com.generictest.TestClass" time="0.0"/>
-  <testcase name="givenThirdFloatAsMaxNumber_ShouldReturnThirdFloatAsMaximum" classname="com.generictest.TestClass" time="0.0"/>
-  <testcase name="givenThirdNumberAsMaxNumber_ShouldReturn_ThirdNumberAsMax" classname="com.generictest.TestClass" time="0.0"/>
-  <testcase name="givenThirdLetterAsMaximum_ShouldReturnThirdLetterAsMaximum" classname="com.generictest.TestClass" time="0.0"/>
-  <testcase name="givenFirstNumberAsMaxNumber_ShouldReturn_FirstNumberAsMax" classname="com.generictest.TestClass" time="0.0"/>
-  <testcase name="givenFirstLetterAsMaximum_ShouldReturnFirstLetterAsMaximum" classname="com.generictest.TestClass" time="0.0"/>
-  <testcase name="givenFirstFloatAsMaxNumber_ShouldReturnFirstFloatAsMaximum" classname="com.generictest.TestClass" time="0.0"/>
-  <system-out><![CDATA[ Maximum number is : Vaibhav
- Maximum number is : Vaibhav
- Maximum number is : Vaibhav
-]]></system-out>
+  <testcase name="givenFirstNumberAsMaxNumber_ShouldReturn_FirstNumberAsMax" classname="com.generictest.TestClass" time="8.115"/>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
